@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Login</title>
+<style type="text/css">
+body {
+  background-color: lightblue;
+  font-family: Arial, Helvetica, sans-serif;
+}
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 20%;
+}
+input[type=text], input[type=password] {
+  width: 20%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+
+
+</style>
+</head>
+<body>
+
+	<center><h1>Login
+	by Iman Zeraati</h1></center>
+	<br>
+	<br>
+
+	<form action="LoginController" method="post">
+		<center>Enter username :<input type="text" name="username"> </center><br><br>
+		<center>Enter password :<input type="password" name="password"></center><br><br>
+		<center><input type="submit" value="Sign In"></center>
+		<br><br>
+		<center><a href="http://localhost:8081/web_pro/registration.jsp">Sign Up</a></center>
+	</form>
+
+</body>
+</html>
